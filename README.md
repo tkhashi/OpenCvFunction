@@ -1,6 +1,6 @@
 # Deploy Command
 ```
-gcloud functions deploy image-annotator   --runtime dotnet3   --trigger-event google.storage.object.finalize   --trigger-resource [backet-name]   --entry-point=StorageImageAnnotator.Function --allow-unauthenticated
+gcloud functions deploy image-annotator   --runtime dotnet3   --trigger-event google.storage.object.finalize   --trigger-resource [bucket-name]   --entry-point=StorageImageAnnotator.Function --allow-unauthenticatedu
 ```
 
 # Reference  
